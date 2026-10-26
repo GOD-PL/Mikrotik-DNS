@@ -8,7 +8,7 @@ OUTPUT = "blocked_dns.txt"
 def main():
   r = requests.get(SOURCE, timeout = 30)
   r.raise_for_status()
-  lines = r.text().splitlines()
+  lines = r.text.splitlines()
   
   ips = []
   
