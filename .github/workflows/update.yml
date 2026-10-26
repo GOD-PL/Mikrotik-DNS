@@ -24,7 +24,7 @@ jobs:
             python-version: '3.x'
 
         - name: Run script
-          run: python update.py
+          run: python prepare-list.py
 
         - name: Commit and push if changed
           run: |
