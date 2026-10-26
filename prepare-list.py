@@ -21,7 +21,7 @@ def main():
     with open(OUTPUT, "w") as f:
       f.write("\n".join(ips) + "\n")
       
-    print(f"\nZapisano: {len(ips) IP do {OUTPUT}")
+    print(f"\nZapisano: {len(ips)} IP do {OUTPUT}")
 
 if __name__ = "__main__":
   main()
