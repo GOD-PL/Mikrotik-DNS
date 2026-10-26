@@ -23,5 +23,5 @@ def main():
       
     print(f"\nZapisano: {len(ips)} IP do {OUTPUT}")
 
-if __name__ = "__main__":
+if __name__ == "__main__":
   main()
