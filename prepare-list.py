@@ -15,13 +15,13 @@ def main():
   for line in lines:
     if NEXTDNS in line:
       continue
-    
+      
     ips.append(line.split()[0])
     
-    with open(OUTPUT, "w") as f:
-      f.write("\n".join(ips) + "\n")
+  with open(OUTPUT, "w") as f:
+    f.write("\n".join(ips) + "\n")
       
-    print(f"\nZapisano: {len(ips)} IP do {OUTPUT}")
+  print(f"\nZapisano: {len(ips)} IP do {OUTPUT}")
 
 if __name__ == "__main__":
   main()
