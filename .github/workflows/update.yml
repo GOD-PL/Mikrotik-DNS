@@ -1,0 +1,34 @@
+name: Update DNS Blocklist
+
+on:
+    schedule:
+        - cron: "30 5 * * *"   # 05:30 UTC = 6:30 zimą / 7:30 latem (DE)
+    push:
+        branches: [ main ]
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    update-blocklist:
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+        - name: Setup Python
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.x'
+
+        - name: Run script
+          run: python update.py
+
+        - name: Commit and push if changed
+          run: |
+            git config user.email "action@github.com"
+            git config user.name "GitHub Action"
+            git add dns-blocked.txt
+            git diff --staged --quiet || (git commit -m "Update dns-blocked.txt - $(date +'%Y-%m-%d %H:%M:%S')" && git push)
