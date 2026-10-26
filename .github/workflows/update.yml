@@ -33,5 +33,5 @@ jobs:
           run: |
             git config user.email "action@github.com"
             git config user.name "GitHub Action"
-            git add dns-blocked.txt
+            git add *.txt
             git diff --staged --quiet || (git commit -m "Update dns-blocked.txt - $(date +'%Y-%m-%d %H:%M:%S')" && git push)
