@@ -17,22 +17,19 @@
 :do { /ip firewall address-list add list=dns address=3.33.242.199 comment="gh: dns.lobbygod.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=3.34.32.82 comment="gh: kr-sel.doh.sb" } on-error={}
 :do { /ip firewall address-list add list=dns address=3.75.122.89 comment="gh: yovbak.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.162.125.2 comment="gh: dns.api.rackspacecloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.162.125.16 comment="gh: dns.api.rackspacecloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.162.125.115 comment="gh: dns.api.rackspacecloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.162.125.117 comment="gh: dns.api.rackspacecloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.61.34 comment="gh: eth.link" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.61.46 comment="gh: eth.link" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.61.91 comment="gh: eth.link" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.61.113 comment="gh: eth.link" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.85.61 comment="gh: ricko.is" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.85.85 comment="gh: ricko.is" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.85.107 comment="gh: ricko.is" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.171.85.110 comment="gh: ricko.is" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.169.173.7 comment="gh: dns.api.rackspacecloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.169.173.46 comment="gh: dns.api.rackspacecloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.169.173.91 comment="gh: dns.api.rackspacecloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.169.173.119 comment="gh: dns.api.rackspacecloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.175.34.3 comment="gh: eth.link" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.175.34.24 comment="gh: eth.link" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.175.34.41 comment="gh: eth.link" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.175.34.70 comment="gh: eth.link" } on-error={}
 :do { /ip firewall address-list add list=dns address=3.213.253.185 comment="gh: dns8.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.215.152.207 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=3.217.220.103 comment="gh: dns.api.globus.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=3.218.88.30 comment="gh: dns.watch" } on-error={}
 :do { /ip firewall address-list add list=dns address=3.221.197.34 comment="gh: dns.api.preview.globus.org" } on-error={}
-:do { /ip firewall address-list add list=dns address=3.228.200.107 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=3.233.2.119 comment="gh: dns.watch" } on-error={}
 :do { /ip firewall address-list add list=dns address=4.150.168.57 comment="gh: dns.safesurfer.co.nz" } on-error={}
 :do { /ip firewall address-list add list=dns address=5.2.72.7 comment="gh: dns.skrep.eu" } on-error={}
@@ -176,10 +173,10 @@
 :do { /ip firewall address-list add list=dns address=17.248.139.236 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.139.237 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.98 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.152.99 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.152.99 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.100 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.101 comment="gh: mask-h2.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.152.102 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.152.102 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.103 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.104 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.105 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
@@ -189,11 +186,11 @@
 :do { /ip firewall address-list add list=dns address=17.248.152.109 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.110 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.111 comment="gh: mask-h2.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.152.112 comment="gh: mask-h2.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.152.113 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.152.112 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.152.113 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.130 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.131 comment="gh: mask-h2.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.152.132 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.152.132 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.133 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.134 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.152.135 comment="gh: mask-h2.icloud.com" } on-error={}
@@ -208,7 +205,7 @@
 :do { /ip firewall address-list add list=dns address=17.248.152.145 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.163.73 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.163.74 comment="gh: mask-h2.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.163.75 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.163.75 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.163.76 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.168.100 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.168.101 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
@@ -275,20 +272,24 @@
 :do { /ip firewall address-list add list=dns address=17.248.169.200 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.169.201 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.4 comment="gh: mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.171.5 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.8 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.9 comment="gh: mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.171.10 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.11 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.34 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.35 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.36 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.37 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.171.38 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.39 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.50 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.51 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.171.52 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.53 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.171.54 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.174.44 comment="gh: mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.174.76 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.174.76 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.175.3 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.175.4 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.175.5 comment="gh: mask.icloud.com" } on-error={}
@@ -322,6 +323,8 @@
 :do { /ip firewall address-list add list=dns address=17.248.181.133 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.181.134 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.181.135 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.181.136 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.181.137 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.185.2 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.185.3 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.185.4 comment="gh: mask.icloud.com" } on-error={}
@@ -366,13 +369,14 @@
 :do { /ip firewall address-list add list=dns address=17.248.186.47 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.69 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.70 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.186.71 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.186.71 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.186.72 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.73 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.74 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.75 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.100 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.101 comment="gh: mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.186.102 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.186.102 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.103 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.104 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.186.105 comment="gh: mask.icloud.com" } on-error={}
@@ -388,6 +392,8 @@
 :do { /ip firewall address-list add list=dns address=17.248.192.44 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.192.52 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.192.57 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.193.16 comment="gh: mask-api.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.193.18 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.193.31 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.193.49 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.193.57 comment="gh: mask-api.icloud.com" } on-error={}
@@ -496,6 +502,7 @@
 :do { /ip firewall address-list add list=dns address=17.248.225.65 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.225.66 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.225.68 comment="gh: mask-api.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.225.70 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.228.12 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.228.19 comment="gh: mask-api.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.228.27 comment="gh: mask-api.icloud.com" } on-error={}
@@ -535,6 +542,7 @@
 :do { /ip firewall address-list add list=dns address=17.248.242.71 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.242.100 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.242.101 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.242.102 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.242.104 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.242.105 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.245.4 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
@@ -595,7 +603,7 @@
 :do { /ip firewall address-list add list=dns address=17.248.248.104 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.105 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.106 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.248.107 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.248.107 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.108 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.109 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.110 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
@@ -607,12 +615,14 @@
 :do { /ip firewall address-list add list=dns address=17.248.248.119 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.120 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.121 comment="gh: mask-h2.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.248.248.122 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.248.122 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.123 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.124 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.125 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.248.126 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.249.4 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.249.5 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.248.249.6 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.249.7 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.250.5 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.248.250.6 comment="gh: mask-h2.icloud.com" } on-error={}
@@ -692,12 +702,14 @@
 :do { /ip firewall address-list add list=dns address=17.250.88.8 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.88.9 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.88.11 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.88.12 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.88.13 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.88.15 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.88.17 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.250.88.18 comment="gh: mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.88.18 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.88.19 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.88.20 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.250.88.21 comment="gh: mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.88.21 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.96.98 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.96.99 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.96.100 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
@@ -731,23 +743,23 @@
 :do { /ip firewall address-list add list=dns address=17.250.98.82 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.132 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.133 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.250.98.134 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.98.134 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.135 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.136 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.137 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.138 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.139 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.250.98.148 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.98.148 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.149 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.150 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.151 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.152 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.250.98.153 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.98.153 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.154 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.155 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.164 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.165 comment="gh: mask-h2.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=17.250.98.166 comment="gh: mask-h2.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=17.250.98.166 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.98.167 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.104.15 comment="gh: mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.250.104.16 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
@@ -817,10 +829,14 @@
 :do { /ip firewall address-list add list=dns address=17.253.86.163 comment="gh: doh.dns.apple.com, doh.dns.apple.com.v.aaplimg.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=17.253.86.165 comment="gh: doh.dns.apple.com, doh.dns.apple.com.v.aaplimg.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=18.136.178.243 comment="gh: dns.syaifullah.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=18.161.6.8 comment="gh: ricko.is" } on-error={}
+:do { /ip firewall address-list add list=dns address=18.161.6.76 comment="gh: ricko.is" } on-error={}
+:do { /ip firewall address-list add list=dns address=18.161.6.84 comment="gh: ricko.is" } on-error={}
+:do { /ip firewall address-list add list=dns address=18.161.6.109 comment="gh: ricko.is" } on-error={}
 :do { /ip firewall address-list add list=dns address=18.200.70.220 comment="gh: dns.bitservices.io" } on-error={}
 :do { /ip firewall address-list add list=dns address=18.202.82.211 comment="gh: doh.kidzonet.io" } on-error={}
+:do { /ip firewall address-list add list=dns address=18.206.202.63 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=18.211.23.224 comment="gh: dns.api.preview.globus.org" } on-error={}
-:do { /ip firewall address-list add list=dns address=18.233.70.120 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=18.233.252.250 comment="gh: dns.api.staging.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=18.252.156.1 comment="gh: dns.dev-umbrellagov.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=18.254.96.167 comment="gh: dns.dev-umbrellagov.com" } on-error={}
@@ -851,7 +867,6 @@
 :do { /ip firewall address-list add list=dns address=31.97.249.178 comment="gh: dns.redhosting.com.ar" } on-error={}
 :do { /ip firewall address-list add list=dns address=31.130.200.100 comment="gh: doh.datahata.by" } on-error={}
 :do { /ip firewall address-list add list=dns address=31.202.133.115 comment="gh: dns.ha-dvin.pp.ua" } on-error={}
-:do { /ip firewall address-list add list=dns address=32.193.178.101 comment="gh: dns.api.globus.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.54.225.106 comment="gh: dns4me.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.80.137.209 comment="gh: bluemood.me" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.85.128.249 comment="gh: dns.bitdefender.net, nvi-dns.bitdefender.net" } on-error={}
@@ -859,6 +874,7 @@
 :do { /ip firewall address-list add list=dns address=34.159.232.134 comment="gh: fra-dns.bitdefender.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.171.234.178 comment="gh: dns.akbxr.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.194.64.57 comment="gh: dns.api.preview.globus.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=34.201.89.67 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.233.157.223 comment="gh: dns.api.globus.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.237.47.228 comment="gh: dns.watch" } on-error={}
 :do { /ip firewall address-list add list=dns address=34.239.50.37 comment="gh: dns.api.integration.globuscs.info" } on-error={}
@@ -913,6 +929,7 @@
 :do { /ip firewall address-list add list=dns address=43.174.247.33 comment="gh: doh.totoro.pub" } on-error={}
 :do { /ip firewall address-list add list=dns address=43.224.180.137 comment="gh: bne01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=43.255.123.52 comment="gh: dns.jiyi.eu" } on-error={}
+:do { /ip firewall address-list add list=dns address=44.223.232.126 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=44.232.93.239 comment="gh: ad.justincounts.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.8.222.99 comment="gh: jp-nrt.doh.sb" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.8.222.100 comment="gh: jp-nrt.doh.sb" } on-error={}
@@ -920,6 +937,7 @@
 :do { /ip firewall address-list add list=dns address=45.8.222.102 comment="gh: jp-nrt.doh.sb" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.8.222.103 comment="gh: jp-nrt.doh.sb" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.11.45.11 comment="gh: dns.sb, doh.sb, public-dns-b.dns.sb" } on-error={}
+:do { /ip firewall address-list add list=dns address=45.32.75.24 comment="gh: cleanbrowsing.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.32.86.63 comment="gh: lelux.fi" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.33.60.119 comment="gh: dns.elemental.software" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.33.66.148 comment="gh: sink.nolo.ltd" } on-error={}
@@ -940,6 +958,7 @@
 :do { /ip firewall address-list add list=dns address=45.79.104.153 comment="gh: dns.falkenthal.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.79.156.126 comment="gh: adg.jnorton.us" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.79.208.98 comment="gh: performance.gosami.xyz" } on-error={}
+:do { /ip firewall address-list add list=dns address=45.79.248.146 comment="gh: dns.13evl.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.82.120.61 comment="gh: fra01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.86.125.58 comment="gh: dns.dnshome.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=45.86.125.59 comment="gh: dns.dnshome.de" } on-error={}
@@ -970,7 +989,6 @@
 :do { /ip firewall address-list add list=dns address=46.38.231.33 comment="gh: ag.marschi.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=46.38.234.60 comment="gh: dns.murgi.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=46.101.110.57 comment="gh: c.cicitt.ch" } on-error={}
-:do { /ip firewall address-list add list=dns address=46.124.108.210 comment="gh: privatnas.servebeer.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=46.161.54.34 comment="gh: geshido.vpn.geshido.ru" } on-error={}
 :do { /ip firewall address-list add list=dns address=46.165.221.100 comment="gh: cryptostorm.is" } on-error={}
 :do { /ip firewall address-list add list=dns address=46.165.252.147 comment="gh: dns.smartguard.io" } on-error={}
@@ -1025,7 +1043,6 @@
 :do { /ip firewall address-list add list=dns address=51.158.147.92 comment="gh: dns.novg.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=51.159.67.129 comment="gh: dns.novg.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=51.159.138.172 comment="gh: dns.wargan.io" } on-error={}
-:do { /ip firewall address-list add list=dns address=51.161.115.44 comment="gh: cleanbrowsing.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=51.178.29.75 comment="gh: dns.alloxr.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=51.178.82.98 comment="gh: dns.crystalyx.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=51.178.136.114 comment="gh: dns.hellozhao.com" } on-error={}
@@ -1043,20 +1060,16 @@
 :do { /ip firewall address-list add list=dns address=54.64.104.154 comment="gh: jp01.dns4me.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.77.124.213 comment="gh: ie01.dns4me.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.79.3.18 comment="gh: au01.dns4me.net" } on-error={}
-:do { /ip firewall address-list add list=dns address=54.81.251.186 comment="gh: dns.api.sandbox.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.90.232.69 comment="gh: doth.huque.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=54.147.132.249 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.158.6.45 comment="gh: dns.api.test.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.160.21.215 comment="gh: dns.watch" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.166.34.59 comment="gh: dns.api.integration.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.169.113.231 comment="gh: sg01.dns4me.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.172.110.180 comment="gh: us02.dns4me.net" } on-error={}
-:do { /ip firewall address-list add list=dns address=54.174.161.16 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.187.149.240 comment="gh: us01.dns4me.net" } on-error={}
+:do { /ip firewall address-list add list=dns address=54.198.70.66 comment="gh: dns.api.sandbox.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.204.37.214 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.224.16.96 comment="gh: dns.pumpkinvrar.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=54.243.77.253 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=54.243.86.57 comment="gh: dns.api.globus.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=54.243.117.197 comment="gh: dns.flightspace.net, dns.scapetical.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=57.128.237.78 comment="gh: dns.panszelescik.pl" } on-error={}
 :do { /ip firewall address-list add list=dns address=57.130.48.7 comment="gh: dns2.saferbfc.org" } on-error={}
@@ -1083,9 +1096,12 @@
 :do { /ip firewall address-list add list=dns address=65.20.80.92 comment="gh: dns.iamanuragh.in" } on-error={}
 :do { /ip firewall address-list add list=dns address=65.21.252.201 comment="gh: tuu01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=65.21.253.73 comment="gh: fi-hel-w-f-2.nashkan.net" } on-error={}
+:do { /ip firewall address-list add list=dns address=65.108.54.17 comment="gh: dns.anon.no" } on-error={}
 :do { /ip firewall address-list add list=dns address=66.23.198.252 comment="gh: dns.omada.cafe" } on-error={}
-:do { /ip firewall address-list add list=dns address=66.33.60.129 comment="gh: arashi.net.eu.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=66.33.60.66 comment="gh: arashi.net.eu.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=66.33.60.194 comment="gh: arashi.net.eu.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=66.55.159.186 comment="gh: dnswebvsn.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=66.63.177.126 comment="gh: dns.stevenz.net, doh.sz-dns.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=66.175.223.143 comment="gh: dns.stirringphoto.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=66.187.4.39 comment="gh: las01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=66.187.7.140 comment="gh: dtw01.dnscry.pt" } on-error={}
@@ -1110,7 +1126,6 @@
 :do { /ip firewall address-list add list=dns address=75.119.137.239 comment="gh: dns.christian.moe, dns.imchristian.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=76.76.2.11 comment="gh: family.freedns.controld.com, freedns.controld.com, p0.freedns.controld.com, p1.freedns.controld.com, p2.freedns.controld.com, p3.freedns.controld.com, uncensored.freedns.controld.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=76.76.2.22 comment="gh: dns.controld.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=76.76.21.93 comment="gh: arashi.net.eu.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=76.223.54.146 comment="gh: dns.faze.dev, dns.pumplex.com, ikarosalpha.xyz" } on-error={}
 :do { /ip firewall address-list add list=dns address=77.68.29.63 comment="gh: ahoj.email" } on-error={}
 :do { /ip firewall address-list add list=dns address=77.68.50.239 comment="gh: dns.connect.fail" } on-error={}
@@ -1127,6 +1142,7 @@
 :do { /ip firewall address-list add list=dns address=78.47.71.194 comment="gh: blank.dnsforge.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=78.47.163.141 comment="gh: adfree.usableprivacy.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=78.94.217.198 comment="gh: dns.b72.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=78.132.1.0 comment="gh: privatnas.servebeer.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=78.142.193.50 comment="gh: nl-ams.doh.sb, ru-mow.doh.sb" } on-error={}
 :do { /ip firewall address-list add list=dns address=78.142.193.51 comment="gh: nl-ams.doh.sb, ru-mow.doh.sb" } on-error={}
 :do { /ip firewall address-list add list=dns address=78.142.193.52 comment="gh: nl-ams.doh.sb, ru-mow.doh.sb" } on-error={}
@@ -1135,6 +1151,7 @@
 :do { /ip firewall address-list add list=dns address=78.194.186.17 comment="gh: dns.sellan.fr" } on-error={}
 :do { /ip firewall address-list add list=dns address=79.110.170.43 comment="gh: us1.dns.lavate.ch" } on-error={}
 :do { /ip firewall address-list add list=dns address=79.124.7.43 comment="gh: sof01.dnscry.pt" } on-error={}
+:do { /ip firewall address-list add list=dns address=79.127.221.146 comment="gh: doh2.b-cdn.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=79.143.240.5 comment="gh: res-acst1.absolight.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=79.143.240.6 comment="gh: res-acst2.absolight.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=79.143.240.7 comment="gh: res-acst3.absolight.net" } on-error={}
@@ -1154,6 +1171,7 @@
 :do { /ip firewall address-list add list=dns address=80.249.144.245 comment="gh: dns.mihanentalpo.me" } on-error={}
 :do { /ip firewall address-list add list=dns address=80.249.149.178 comment="gh: muxyuji.ru, www.muxyuji.ru" } on-error={}
 :do { /ip firewall address-list add list=dns address=80.254.79.157 comment="gh: zrh1-ns01.monzoon.net" } on-error={}
+:do { /ip firewall address-list add list=dns address=81.27.162.100 comment="gh: dns.csa-rz.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=81.130.111.250 comment="gh: doh.bt.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=81.130.111.251 comment="gh: doh.bt.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=81.169.136.222 comment="gh: ns3.opennameserver.org" } on-error={}
@@ -1181,7 +1199,6 @@
 :do { /ip firewall address-list add list=dns address=82.158.225.136 comment="gh: dns.hshoe.cn" } on-error={}
 :do { /ip firewall address-list add list=dns address=82.180.145.196 comment="gh: dns.albony.xyz" } on-error={}
 :do { /ip firewall address-list add list=dns address=82.180.147.144 comment="gh: ada.openbld.net" } on-error={}
-:do { /ip firewall address-list add list=dns address=82.192.80.80 comment="gh: solaxy.live" } on-error={}
 :do { /ip firewall address-list add list=dns address=82.221.134.26 comment="gh: skydragoness.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=83.32.191.121 comment="gh: dns.molinero.dev" } on-error={}
 :do { /ip firewall address-list add list=dns address=83.97.77.150 comment="gh: ada.openbld.net" } on-error={}
@@ -1193,7 +1210,6 @@
 :do { /ip firewall address-list add list=dns address=84.33.12.158 comment="gh: tyo01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=84.104.237.102 comment="gh: dns.melvin2204.nl" } on-error={}
 :do { /ip firewall address-list add list=dns address=84.183.57.251 comment="gh: echoe1yidzu4ioo5.myfritz.net" } on-error={}
-:do { /ip firewall address-list add list=dns address=84.191.57.253 comment="gh: dns.reitmeier.me" } on-error={}
 :do { /ip firewall address-list add list=dns address=84.247.161.151 comment="gh: ada.openbld.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=85.90.197.7 comment="gh: skg01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=85.195.238.28 comment="gh: dns.momou.ch" } on-error={}
@@ -1251,6 +1267,7 @@
 :do { /ip firewall address-list add list=dns address=91.107.198.189 comment="gh: dns.arkbotech.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=91.107.223.231 comment="gh: dns.busold.ws" } on-error={}
 :do { /ip firewall address-list add list=dns address=91.108.80.159 comment="gh: moe01.dnscry.pt" } on-error={}
+:do { /ip firewall address-list add list=dns address=91.147.110.42 comment="gh: ada.openbld.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=91.190.185.43 comment="gh: opennic.i2pd.xyz" } on-error={}
 :do { /ip firewall address-list add list=dns address=91.197.1.19 comment="gh: ada.openbld.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=91.197.1.176 comment="gh: mickedi.isgood.host" } on-error={}
@@ -1271,6 +1288,7 @@
 :do { /ip firewall address-list add list=dns address=93.4.84.37 comment="gh: adguard.maison.gifino.fr" } on-error={}
 :do { /ip firewall address-list add list=dns address=93.66.239.145 comment="gh: adguard.depieri.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=93.95.115.21 comment="gh: eyg01.dnscry.pt" } on-error={}
+:do { /ip firewall address-list add list=dns address=93.146.113.253 comment="gh: block.abstergo.it" } on-error={}
 :do { /ip firewall address-list add list=dns address=93.183.106.222 comment="gh: mow01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=93.190.126.69 comment="gh: doh.immerda.ch" } on-error={}
 :do { /ip firewall address-list add list=dns address=93.200.26.253 comment="gh: ueni.dyndns.org" } on-error={}
@@ -1314,13 +1332,15 @@
 :do { /ip firewall address-list add list=dns address=96.9.215.92 comment="gh: gb-cov-w-f-1.nashkan.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=96.9.228.27 comment="gh: hkg01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=96.44.178.68 comment="gh: dns.foxyfy.net" } on-error={}
-:do { /ip firewall address-list add list=dns address=96.106.7.234 comment="gh: doh.xfinity.com, doh2.gslb2.xfinity.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=96.106.7.232 comment="gh: doh.xfinity.com, doh2.gslb2.xfinity.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=96.113.151.145 comment="gh: dot.xfinity.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=98.16.149.152 comment="gh: dns.cahlen.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=99.79.182.170 comment="gh: ca01.dns4me.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=99.80.192.194 comment="gh: doh.kidzonet.io" } on-error={}
+:do { /ip firewall address-list add list=dns address=100.29.218.204 comment="gh: dns.api.globus.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=100.48.189.232 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=100.59.70.243 comment="gh: dns.api.staging.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=100.59.147.245 comment="gh: dns.api.staging.globuscs.info" } on-error={}
-:do { /ip firewall address-list add list=dns address=100.60.162.252 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=100.61.203.8 comment="gh: dns.api.integration.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=101.6.6.6 comment="gh: dns.tuna.tsinghua.edu.cn" } on-error={}
 :do { /ip firewall address-list add list=dns address=101.34.229.193 comment="gh: sukidayo.eu.org" } on-error={}
@@ -1409,6 +1429,7 @@
 :do { /ip firewall address-list add list=dns address=104.21.16.173 comment="gh: dns.rayanbab.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.16.249 comment="gh: dns.xiumu.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.21.104 comment="gh: adguard.kasbot.net" } on-error={}
+:do { /ip firewall address-list add list=dns address=104.21.21.237 comment="gh: mabuktogel.properties" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.22.31 comment="gh: netcup.mismat.ch" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.23.47 comment="gh: rockwell.website" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.24.35 comment="gh: doh-de.blahdns.com, doh-sg.blahdns.com" } on-error={}
@@ -1476,6 +1497,7 @@
 :do { /ip firewall address-list add list=dns address=104.21.79.108 comment="gh: armorrush.eu.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.82.77 comment="gh: dns.xuming.studio" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.83.46 comment="gh: ivnkn.xyz" } on-error={}
+:do { /ip firewall address-list add list=dns address=104.21.83.216 comment="gh: mabuktogel.business" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.86.178 comment="gh: pm7051-br.xyz" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.87.52 comment="gh: virga.pp.ua" } on-error={}
 :do { /ip firewall address-list add list=dns address=104.21.89.15 comment="gh: dns.furrydns.de" } on-error={}
@@ -1512,7 +1534,6 @@
 :do { /ip firewall address-list add list=dns address=106.55.44.79 comment="gh: dns.b612.me" } on-error={}
 :do { /ip firewall address-list add list=dns address=106.55.91.174 comment="gh: sm2.doh.pub" } on-error={}
 :do { /ip firewall address-list add list=dns address=107.20.157.2 comment="gh: dns.api.test.globuscs.info" } on-error={}
-:do { /ip firewall address-list add list=dns address=107.22.117.7 comment="gh: dns.api.sandbox.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=107.172.8.5 comment="gh: us-sj.foxyfy.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=107.173.187.132 comment="gh: dns.girino.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=107.182.173.83 comment="gh: ogd01.dnscry.pt" } on-error={}
@@ -1530,7 +1551,7 @@
 :do { /ip firewall address-list add list=dns address=109.230.224.150 comment="gh: doh.defaultroutes.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=109.236.119.2 comment="gh: dns.levonet.sk" } on-error={}
 :do { /ip firewall address-list add list=dns address=109.236.120.2 comment="gh: dns.levonet.sk" } on-error={}
-:do { /ip firewall address-list add list=dns address=109.250.197.160 comment="gh: adguard.bitteeinbyte.de" } on-error={}
+:do { /ip firewall address-list add list=dns address=109.250.197.29 comment="gh: adguard.bitteeinbyte.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=109.250.204.4 comment="gh: area51.mywire.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=111.20.254.35 comment="gh: opencdn.jomodns.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=111.170.6.138 comment="gh: doh.18bit.cn" } on-error={}
@@ -1542,6 +1563,7 @@
 :do { /ip firewall address-list add list=dns address=112.213.32.219 comment="gh: syd.adfilter.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=113.179.20.238 comment="gh: tungdnsne.duckdns.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=113.210.64.250 comment="gh: fwgw.orangepipc.mywire.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=114.12.15.145 comment="gh: gustamadh.dynv6.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=114.33.26.67 comment="gh: dns.jundev.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=114.34.0.56 comment="gh: adguard.shuting.idv.tw" } on-error={}
 :do { /ip firewall address-list add list=dns address=114.66.33.239 comment="gh: dns.hujiayucc.cn" } on-error={}
@@ -1571,7 +1593,6 @@
 :do { /ip firewall address-list add list=dns address=128.210.6.106 comment="gh: doh.ersei.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=128.242.11.93 comment="gh: dns.flwagners.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=128.254.206.25 comment="gh: dns.practicallyunhackable.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=129.80.39.60 comment="gh: dns.stevenz.net, doh.sz-dns.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=129.146.12.205 comment="gh: dns.us-phoenix-1.oraclecloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=129.146.13.219 comment="gh: dns.us-phoenix-1.oraclecloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=129.146.14.226 comment="gh: dns.us-phoenix-1.oraclecloud.com" } on-error={}
@@ -1623,6 +1644,7 @@
 :do { /ip firewall address-list add list=dns address=138.2.122.236 comment="gh: dns.eliv.kr" } on-error={}
 :do { /ip firewall address-list add list=dns address=138.2.123.220 comment="gh: dns.moonssif.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=138.3.250.240 comment="gh: dns.almir1904.eu" } on-error={}
+:do { /ip firewall address-list add list=dns address=138.199.149.249 comment="gh: blank.dnsforge.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=138.199.222.186 comment="gh: dns.is0mino.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=138.236.128.100 comment="gh: cluster-0.gac.edu" } on-error={}
 :do { /ip firewall address-list add list=dns address=138.236.128.101 comment="gh: cluster-1.gac.edu" } on-error={}
@@ -1691,6 +1713,7 @@
 :do { /ip firewall address-list add list=dns address=147.189.136.183 comment="gh: ymq01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=147.189.140.136 comment="gh: fnt01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=149.28.101.119 comment="gh: pluton.plan9-dns.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=149.28.121.105 comment="gh: cleanbrowsing.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=149.28.144.189 comment="gh: dns.mikrotikrumahan.my.id" } on-error={}
 :do { /ip firewall address-list add list=dns address=149.88.64.107 comment="gh: dns.886886886.xyz" } on-error={}
 :do { /ip firewall address-list add list=dns address=149.104.186.91 comment="gh: dnsenc.com" } on-error={}
@@ -1736,7 +1759,6 @@
 :do { /ip firewall address-list add list=dns address=152.70.113.139 comment="gh: dns.extrawdw.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=152.70.218.58 comment="gh: dns.inforlogia.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=152.70.244.17 comment="gh: dns.jinwoo.dev" } on-error={}
-:do { /ip firewall address-list add list=dns address=152.233.50.1 comment="gh: doh1.b-cdn.net, doh2.b-cdn.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=153.31.113.36 comment="gh: nicsezcheckfbi.gov" } on-error={}
 :do { /ip firewall address-list add list=dns address=154.0.175.29 comment="gh: pihole.datamatter.co.za" } on-error={}
 :do { /ip firewall address-list add list=dns address=154.90.44.84 comment="gh: secure-dns.pleumkungz.com" } on-error={}
@@ -1780,7 +1802,7 @@
 :do { /ip firewall address-list add list=dns address=160.191.182.216 comment="gh: blr01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=160.202.238.204 comment="gh: dns.23-4.cn" } on-error={}
 :do { /ip firewall address-list add list=dns address=160.250.95.28 comment="gh: dns.hakim.one" } on-error={}
-:do { /ip firewall address-list add list=dns address=160.251.64.80 comment="gh: family.dns.doubleangels.com, lukscasino-929-tr.xyz, mendozasdelivery.com, mikezhang.xyz" } on-error={}
+:do { /ip firewall address-list add list=dns address=160.251.64.80 comment="gh: dns.wahr.top, family.dns.doubleangels.com, lukscasino-479-tr.xyz, lukscasino-929-tr.xyz, mikezhang.xyz, pashagame456.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=161.35.136.3 comment="gh: doh-primary-pool.goodbyegambling.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=161.118.145.178 comment="gh: adguard.haneulo.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=161.129.34.134 comment="gh: 5g.o0o.re" } on-error={}
@@ -1910,6 +1932,7 @@
 :do { /ip firewall address-list add list=dns address=172.67.175.175 comment="gh: dns.baishiyuan.cn" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.179.182 comment="gh: dns.rotunneling.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.181.168 comment="gh: dns.dotnet.win" } on-error={}
+:do { /ip firewall address-list add list=dns address=172.67.182.48 comment="gh: mabuktogel.business" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.182.154 comment="gh: dns.paesa.es" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.184.76 comment="gh: dns.kosan.moe" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.188.62 comment="gh: ahadns.net" } on-error={}
@@ -1925,6 +1948,7 @@
 :do { /ip firewall address-list add list=dns address=172.67.198.92 comment="gh: dns.xuming.studio" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.198.185 comment="gh: dns.unerror.network" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.200.128 comment="gh: sundalandia.pp.ua" } on-error={}
+:do { /ip firewall address-list add list=dns address=172.67.201.106 comment="gh: mabuktogel.properties" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.202.50 comment="gh: netcup.mismat.ch" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.202.105 comment="gh: dns.superstefan.win" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.67.203.156 comment="gh: dns.jstockley.com" } on-error={}
@@ -2072,7 +2096,7 @@
 :do { /ip firewall address-list add list=dns address=172.224.179.13 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.224.180.3 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.224.180.4 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=172.224.180.5 comment="gh: mask.icloud.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=172.224.180.5 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.224.180.6 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.224.180.7 comment="gh: mask-h2.icloud.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.224.180.8 comment="gh: mask-h2.icloud.com, mask.icloud.com" } on-error={}
@@ -2115,7 +2139,6 @@
 :do { /ip firewall address-list add list=dns address=172.233.59.98 comment="gh: dns.pccoach.nl" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.233.147.42 comment="gh: adguard.hartley.cloud" } on-error={}
 :do { /ip firewall address-list add list=dns address=172.233.221.243 comment="gh: doh.archuser.org" } on-error={}
-:do { /ip firewall address-list add list=dns address=173.20.169.71 comment="gh: dns.cahlen.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=173.208.212.205 comment="gh: dns.furrix.zone, dns.marbledfennec.net, multi.dns.marbledfennec.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=173.230.149.113 comment="gh: dns.scott-smith.us" } on-error={}
 :do { /ip firewall address-list add list=dns address=173.249.205.198 comment="gh: phx01.dnscry.pt" } on-error={}
@@ -2126,7 +2149,7 @@
 :do { /ip firewall address-list add list=dns address=174.138.29.175 comment="gh: doh.tiar.app, dot.tiar.app" } on-error={}
 :do { /ip firewall address-list add list=dns address=175.24.154.66 comment="gh: dns.rubyfish.cn, ea-dns.rubyfish.cn, uw-dns.rubyfish.cn" } on-error={}
 :do { /ip firewall address-list add list=dns address=175.45.182.179 comment="gh: adl01.dnscry.pt" } on-error={}
-:do { /ip firewall address-list add list=dns address=175.143.240.138 comment="gh: dns.surobe.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=175.143.241.71 comment="gh: dns.surobe.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=176.9.25.158 comment="gh: dns.svoi.dev" } on-error={}
 :do { /ip firewall address-list add list=dns address=176.9.54.219 comment="gh: de.dns.privex.io" } on-error={}
 :do { /ip firewall address-list add list=dns address=176.9.242.147 comment="gh: dns.ourvau.lt, dns.redvau.lt, dns.vault81.de" } on-error={}
@@ -2136,7 +2159,7 @@
 :do { /ip firewall address-list add list=dns address=176.111.223.167 comment="gh: sjc01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=176.123.10.105 comment="gh: kiv01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=176.123.163.193 comment="gh: dns.petqa.ru" } on-error={}
-:do { /ip firewall address-list add list=dns address=176.129.18.190 comment="gh: dns.chadeyron.fr" } on-error={}
+:do { /ip firewall address-list add list=dns address=176.164.237.198 comment="gh: dns.chadeyron.fr" } on-error={}
 :do { /ip firewall address-list add list=dns address=177.177.83.64 comment="gh: dns64.dns.yunzheng.space" } on-error={}
 :do { /ip firewall address-list add list=dns address=177.177.83.83 comment="gh: dns.yunzheng.space" } on-error={}
 :do { /ip firewall address-list add list=dns address=177.177.83.84 comment="gh: filter.dns.yunzheng.space" } on-error={}
@@ -2159,15 +2182,17 @@
 :do { /ip firewall address-list add list=dns address=178.162.231.59 comment="gh: dns.keweon.center" } on-error={}
 :do { /ip firewall address-list add list=dns address=178.162.231.69 comment="gh: dns.keweon.center" } on-error={}
 :do { /ip firewall address-list add list=dns address=178.162.231.73 comment="gh: dns.keweon.center" } on-error={}
-:do { /ip firewall address-list add list=dns address=178.191.7.147 comment="gh: cfdjb.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=178.191.0.56 comment="gh: cfdjb.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=178.208.3.9 comment="gh: nsc.torgues.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=178.209.51.242 comment="gh: nsec.arnor.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=178.248.239.174 comment="gh: comss.ru" } on-error={}
-:do { /ip firewall address-list add list=dns address=182.8.195.90 comment="gh: dns.velyn.my.id" } on-error={}
+:do { /ip firewall address-list add list=dns address=182.8.193.41 comment="gh: dns.velyn.my.id" } on-error={}
 :do { /ip firewall address-list add list=dns address=183.171.200.162 comment="gh: punono.duckdns.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=184.193.229.114 comment="gh: dns.api.sandbox.globuscs.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=184.194.7.242 comment="gh: dns.api.test.globuscs.info" } on-error={}
-:do { /ip firewall address-list add list=dns address=184.194.209.141 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=184.194.81.174 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=184.195.243.54 comment="gh: dns.watch" } on-error={}
+:do { /ip firewall address-list add list=dns address=184.196.90.67 comment="gh: httpdns-push.heytapmobile.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.16.60.194 comment="gh: doh.webnmail.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.37.252.146 comment="gh: ee-tll.doh.sb" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.37.252.147 comment="gh: ee-tll.doh.sb" } on-error={}
@@ -2230,7 +2255,6 @@
 :do { /ip firewall address-list add list=dns address=185.228.168.10 comment="gh: adult-filter-dns.cleanbrowsing.org, doh.cleanbrowsing.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.228.168.168 comment="gh: doh.cleanbrowsing.org, family-filter-dns.cleanbrowsing.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.231.100.106 comment="gh: sto02.dnscry.pt" } on-error={}
-:do { /ip firewall address-list add list=dns address=185.231.100.108 comment="gh: dns.anon.no" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.234.98.39 comment="gh: timmes.nl" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.236.104.254 comment="gh: doh.flashstart.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=185.242.177.7 comment="gh: rfree2.blue-shield.at" } on-error={}
@@ -2252,7 +2276,7 @@
 :do { /ip firewall address-list add list=dns address=188.190.191.78 comment="gh: dns.adnull.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=188.245.45.16 comment="gh: rumpelsepp.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=188.245.165.100 comment="gh: dns.deadsec.net" } on-error={}
-:do { /ip firewall address-list add list=dns address=192.3.4.22 comment="gh: dns.stevenz.net, doh.sz-dns.com" } on-error={}
+:do { /ip firewall address-list add list=dns address=188.245.192.196 comment="gh: pidoh.mapledns.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=192.64.119.49 comment="gh: affsoft.cc" } on-error={}
 :do { /ip firewall address-list add list=dns address=192.71.218.121 comment="gh: haf01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=192.99.125.157 comment="gh: mailer.amlegion.org" } on-error={}
@@ -2343,7 +2367,6 @@
 :do { /ip firewall address-list add list=dns address=203.29.240.52 comment="gh: dns.slinkyman.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=203.29.240.249 comment="gh: per01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=203.29.241.76 comment="gh: per.adfilter.net" } on-error={}
-:do { /ip firewall address-list add list=dns address=203.88.117.153 comment="gh: renardbleu.dev" } on-error={}
 :do { /ip firewall address-list add list=dns address=203.107.1.97 comment="gh: httpdns-sc.aliyuncs.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=203.107.1.100 comment="gh: httpdns-sc.aliyuncs.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=203.180.140.77 comment="gh: iij.jp" } on-error={}
@@ -2368,10 +2391,8 @@
 :do { /ip firewall address-list add list=dns address=208.67.222.2 comment="gh: sandbox.opendns.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=208.67.222.123 comment="gh: familyshield.opendns.com, resolver1-fs.opendns.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=208.67.222.222 comment="gh: dns.opendns.com, dns.umbrella.com, resolver1.opendns.com" } on-error={}
-:do { /ip firewall address-list add list=dns address=208.167.248.121 comment="gh: cleanbrowsing.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=209.135.170.51 comment="gh: iah01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=209.182.225.103 comment="gh: sea01.dnscry.pt" } on-error={}
-:do { /ip firewall address-list add list=dns address=209.208.26.145 comment="gh: dns.dyn1.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=209.250.246.198 comment="gh: adguardhome.atakorah.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=210.165.151.83 comment="gh: dns.soldier.terumi.club" } on-error={}
 :do { /ip firewall address-list add list=dns address=212.18.0.5 comment="gh: dns.mnet-online.de" } on-error={}
@@ -2379,7 +2400,9 @@
 :do { /ip firewall address-list add list=dns address=212.19.134.52 comment="gh: ada.openbld.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=212.60.61.246 comment="gh: doh.quickline.ch, dot.quickline.ch" } on-error={}
 :do { /ip firewall address-list add list=dns address=212.60.63.246 comment="gh: doh.quickline.ch, dot.quickline.ch" } on-error={}
+:do { /ip firewall address-list add list=dns address=212.92.105.21 comment="gh: solaxy.live" } on-error={}
 :do { /ip firewall address-list add list=dns address=212.95.35.26 comment="gh: ada.openbld.net" } on-error={}
+:do { /ip firewall address-list add list=dns address=212.102.46.118 comment="gh: doh1.b-cdn.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=212.132.117.52 comment="gh: dns.peb-schmidt.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=212.185.200.25 comment="gh: dns1.conne.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=212.227.88.232 comment="gh: dns.fehlsprache.de" } on-error={}
@@ -2403,8 +2426,8 @@
 :do { /ip firewall address-list add list=dns address=216.238.80.219 comment="gh: helios.plan9-dns.com" } on-error={}
 :do { /ip firewall address-list add list=dns address=216.245.140.20 comment="gh: man01.dnscry.pt" } on-error={}
 :do { /ip firewall address-list add list=dns address=216.250.97.148 comment="gh: hkg02.dnscry.pt" } on-error={}
-:do { /ip firewall address-list add list=dns address=217.0.43.2 comment="gh: dns.telekom.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=217.0.43.50 comment="gh: dns.telekom.de" } on-error={}
+:do { /ip firewall address-list add list=dns address=217.0.43.146 comment="gh: dns.telekom.de" } on-error={}
 :do { /ip firewall address-list add list=dns address=217.69.4.29 comment="gh: nsec.arnor.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=217.91.179.72 comment="gh: doh.kekew.info" } on-error={}
 :do { /ip firewall address-list add list=dns address=217.154.99.101 comment="gh: dns.mateo.ovh" } on-error={}
@@ -2418,6 +2441,7 @@
 :do { /ip firewall address-list add list=dns address=217.169.20.22 comment="gh: dns.aa.net.uk" } on-error={}
 :do { /ip firewall address-list add list=dns address=217.169.20.23 comment="gh: dns.aa.net.uk" } on-error={}
 :do { /ip firewall address-list add list=dns address=217.197.91.153 comment="gh: dns.artikel10.org" } on-error={}
+:do { /ip firewall address-list add list=dns address=217.255.209.72 comment="gh: dns.reitmeier.me" } on-error={}
 :do { /ip firewall address-list add list=dns address=218.75.4.130 comment="gh: hshh.org" } on-error={}
 :do { /ip firewall address-list add list=dns address=219.8.10.234 comment="gh: dns.yuu-g.net" } on-error={}
 :do { /ip firewall address-list add list=dns address=220.77.190.196 comment="gh: 1.dns.noridev.moe" } on-error={}
